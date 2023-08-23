@@ -15,7 +15,7 @@ class Person:
         return '{} {}'.format(self.first, self.last)
 
     def apply_raise(self):
-        self.pay = int(self.pay * Person.raise_amount)
+        self.pay = int(self.pay * self.raise_amount)
 
 
 p1 = Person('Waseeeq', 'Ahmed', 100000)
